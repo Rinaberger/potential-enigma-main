@@ -106,7 +106,7 @@ function writeToFile(fileName, data) {
       console.log(JSON.stringify(data, null, " "));
       data.renderLicenseBadge = renderLicenseBadge(data.license);
       data.renderLicenselink = renderLicenselink(data.license);
-      writeToFile("Sample-README.md", data);
+      writeToFile("Example-README.md", data);
     });
   }
   
