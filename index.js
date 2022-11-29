@@ -73,20 +73,14 @@ const questions = [
   {
     type: "input",
     name: "userName",
-    message: "Please provide your Github username?",
+    message: "Please provide your Github username.",
     validate: validateUserInput,
   },
   {
     type: "input",
     name: "userEmail",
-    message: "Please provide your email address?",
-    validate: function (value) {
-      if ("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._]+.[a-zA-Z]+$") {
-        return true;
-      } else {
-        return "Please enter a valid email address.";
-      }
-    },
+    message: "Please provide your email address.",
+    validate: validateUserInput    
   },
 ];
 
