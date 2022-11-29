@@ -1,12 +1,10 @@
-# Professional README Generator Starter Code
+![Screenshot (76)](https://user-images.githubusercontent.com/108424256/204574142-aa4dc942-4322-4e76-8472-78d53ca7cb79.png)
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
-TITLE: Weather Application
+TITLE: Readme Generator
 AUTHOR: Scott Rinaberger
 
 LINKS:
-    ** Recorded View Link: chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/93eb4b16-682d-486a-y85e-47e94e229a2d
+    ** Recorded View Link: https://drive.google.com/file/d/1CUAegQe44KzBr54IpDJTQ_tCxzhj4xmW/view
     ** GitHub URL: https://github.com/Rinaberger/potential-enigma-main.git
 
 
