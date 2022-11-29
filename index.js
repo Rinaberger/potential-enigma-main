@@ -21,31 +21,31 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "What is the title of your project?",
+    message: "Please input title of your project?",
     validate: validateUserInput,
   },
   {
     type: "input",
     name: "description",
-    message: "Enter a description of your project.",
+    message: "Please describe your project.",
     validate: validateUserInput,
   },
   {
     type: "input",
     name: "installation",
-    message: "Enter installation instructions for your project.",
+    message: "Please provide installation instructions.",
     validate: validateUserInput,
   },
   {
     type: "input",
     name: "usage",
-    message: "Enter directions for use for your project.",
+    message: "Please describe uses for your project.",
     validate: validateUserInput,
   },
   {
     type: "list",
     name: "license",
-    message: "Select a license for this project.",
+    message: "Please select a license for this project.",
     choices: [
       "Apache 2.0",
       "BSD3",
@@ -61,25 +61,25 @@ const questions = [
   {
     type: "input",
     name: "contribution",
-    message: "How can users contribute to your project?",
+    message: "How can others contribute to your project?",
     validate: validateUserInput,
   },
   {
     type: "input",
     name: "tests",
-    message: "Enter any testing instructions for your project.",
+    message: "Are there any testing instructions for your project.",
     validate: validateUserInput,
   },
   {
     type: "input",
     name: "userName",
-    message: "What is your Github username?",
+    message: "Please provide your Github username?",
     validate: validateUserInput,
   },
   {
     type: "input",
     name: "userEmail",
-    message: "What is your email address?",
+    message: "Please provide your email address?",
     validate: function (value) {
       if ("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._]+.[a-zA-Z]+$") {
         return true;
